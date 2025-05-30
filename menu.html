@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Menù - Bar Italy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #0b1f33;
+      color: gold;
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding-top: 30px;
+      background-image: url('decorazione_menu_bg.png');
+      background-size: contain;
+      background-repeat: repeat;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 30px;
+    }
+    .menu-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .menu-item {
+      background-color: #001f33;
+      border: 2px solid gold;
+      border-radius: 8px;
+      padding: 12px 24px;
+      width: 100%;
+      text-decoration: none;
+      color: gold;
+      font-weight: bold;
+      font-size: 1em;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .menu-item:hover {
+      background-color: gold;
+      color: #001f33;
+    }
+  </style>
+</head>
+<body>
+  <h1>Menù</h1>
+  <div class="menu-grid">
+    <a href="cocktail.html" class="menu-item">Cocktail</a>
+    <a href="aperitivi.html" class="menu-item">Aperitivi</a>
+    <a href="vini.html" class="menu-item">Vini</a>
+    <a href="birre.html" class="menu-item">Birre</a>
+    <a href="caffetteria.html" class="menu-item">Caffetteria</a>
+    <a href="bibite.html" class="menu-item">Bibite</a>
+    <a href="amari.html" class="menu-item">Amari</a>
+    <a href="panini.html" class="menu-item">Panini & Pietanze</a>
+    <a href="frullati.html" class="menu-item">Frullati & Gelato</a>
+  </div>
+</body>
+</html>
